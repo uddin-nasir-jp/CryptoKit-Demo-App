@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		0954407E2D4904BA00A1A6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 095440402D48F7CE00A1A6AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 095440472D48F7CE00A1A6AA;
+			remoteInfo = "CrytoKit Encryption";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		095440482D48F7CE00A1A6AA /* CrytoKit Encryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrytoKit Encryption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0954407A2D4904BA00A1A6AA /* CrytoKit EncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrytoKit EncryptionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = "CrytoKit Encryption";
 			sourceTree = "<group>";
 		};
+		0954407B2D4904BA00A1A6AA /* CrytoKit EncryptionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "CrytoKit EncryptionTests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		095440452D48F7CE00A1A6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095440772D4904BA00A1A6AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				0954404A2D48F7CE00A1A6AA /* CrytoKit Encryption */,
+				0954407B2D4904BA00A1A6AA /* CrytoKit EncryptionTests */,
 				095440492D48F7CE00A1A6AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				095440482D48F7CE00A1A6AA /* CrytoKit Encryption.app */,
+				0954407A2D4904BA00A1A6AA /* CrytoKit EncryptionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 095440482D48F7CE00A1A6AA /* CrytoKit Encryption.app */;
 			productType = "com.apple.product-type.application";
 		};
+		095440792D4904BA00A1A6AA /* CrytoKit EncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095440802D4904BA00A1A6AA /* Build configuration list for PBXNativeTarget "CrytoKit EncryptionTests" */;
+			buildPhases = (
+				095440762D4904BA00A1A6AA /* Sources */,
+				095440772D4904BA00A1A6AA /* Frameworks */,
+				095440782D4904BA00A1A6AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0954407F2D4904BA00A1A6AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0954407B2D4904BA00A1A6AA /* CrytoKit EncryptionTests */,
+			);
+			name = "CrytoKit EncryptionTests";
+			packageProductDependencies = (
+			);
+			productName = "CrytoKit EncryptionTests";
+			productReference = 0954407A2D4904BA00A1A6AA /* CrytoKit EncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					095440472D48F7CE00A1A6AA = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					095440792D4904BA00A1A6AA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 095440472D48F7CE00A1A6AA;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				095440472D48F7CE00A1A6AA /* CrytoKit Encryption */,
+				095440792D4904BA00A1A6AA /* CrytoKit EncryptionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		095440462D48F7CE00A1A6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		095440782D4904BA00A1A6AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		095440762D4904BA00A1A6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0954407F2D4904BA00A1A6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 095440472D48F7CE00A1A6AA /* CrytoKit Encryption */;
+			targetProxy = 0954407E2D4904BA00A1A6AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		095440542D48F7CF00A1A6AA /* Debug */ = {
@@ -302,6 +377,42 @@
 			};
 			name = Release;
 		};
+		095440812D4904BA00A1A6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZC69MRGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nasdin.CrytoKit-EncryptionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrytoKit Encryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrytoKit Encryption";
+			};
+			name = Debug;
+		};
+		095440822D4904BA00A1A6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2ZC69MRGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nasdin.CrytoKit-EncryptionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrytoKit Encryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CrytoKit Encryption";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +430,15 @@
 			buildConfigurations = (
 				095440572D48F7CF00A1A6AA /* Debug */,
 				095440582D48F7CF00A1A6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		095440802D4904BA00A1A6AA /* Build configuration list for PBXNativeTarget "CrytoKit EncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095440812D4904BA00A1A6AA /* Debug */,
+				095440822D4904BA00A1A6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
