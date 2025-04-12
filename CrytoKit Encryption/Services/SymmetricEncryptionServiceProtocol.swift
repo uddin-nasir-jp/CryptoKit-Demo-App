@@ -5,3 +5,5 @@ protocol SymmetricEncryptionServiceProtocol {
     func encrypt(message: String, using key: SymmetricKey) -> String?
     func decrypt(encryptedMessage: String, using key: SymmetricKey) -> String?
 }
+
+// Test commit
